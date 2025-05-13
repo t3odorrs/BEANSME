@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre Noi - Meet the Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Simple+Serenity&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .neon-box {
+            border: 2px solid #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        .neon-box:hover {
+            border-color: #00ffff;
+            box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.5);
+        }
+
+        .team-member-box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #B77152;
+        }
+
+        .team-member-box h3 {
+            font-size: 1.4em;
+            color: #471E0D;
+            margin-bottom: 5px;
+        }
+
+        .team-member-box h4 {
+            font-size: 1.1em;
+            color: #733D24;
+            margin-bottom: 10px;
+        }
+
+        .team-member-box p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .social-media-box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-media-box h3 {
+            font-size: 1.5em;
+            color: #471E0D;
+            margin-bottom: 15px;
+        }
+
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 1.5em;
+        }
+
+        .social-media-icons a {
+            color: #733D24;
+            transition: color 0.3s ease;
+        }
+
+        .social-media-icons a:hover {
+            color: #B77152;
+        }
+    </style>
+</head>
+<body class="bg-f8f0e3 font-simple">
+    <header class="bg-B77152 text-white py-4 px-8 flex justify-between items-center shadow-md">
+        <div class="brand-description flex items-center gap-4">
+            <img src="BINS.png" alt="Beans Logo" style="height: 50px; width: auto;">
+            <h1 class="text-2xl font-bold tracking-wide">Beans</h1>
+        </div>
+        <div class="menu-buy flex gap-4">
+             <a href="index.html" class="text-lg text-brown-700 border-2 border-brown-700 rounded-full px-6 py-2 hover:bg-brown-700 hover:text-white transition duration-300">Acasă</a>
+        </div>
+    </header>
+
+    <div class="container mx-auto mt-10 p-8 rounded-xl shadow-lg bg-white">
+        <h2 class="text-4xl text-center text-brown-900 mb-8 tracking-wide">Despre Noi</h2>
+        <div class="page-details text-center text-gray-700 mb-10 px-12">
+            <p>Bine ați venit la Beans, locul unde pasiunea pentru gustul autentic se întâlnește cu dorința de a crea momente de neuitat. Suntem o echipă dedicată să vă oferim o experiență culinară desăvârșită, de la ingredientele proaspete și atent selecționate, până la atmosfera caldă și primitoare pe care o creăm în fiecare zi.</p>
+            <p>Povestea noastră a început cu o viziune simplă: aceea de a aduce bucurie și satisfacție clienților noștri prin preparate delicioase, realizate cu dragoste și măiestrie. Fiecare membru al echipei noastre împărtășește această viziune și contribuie cu talentul și dedicarea sa pentru a transforma fiecare vizită într-o experiență memorabilă.</p>
+        </div>
+
+        <div class="neon-box mx-auto mb-10">
+            <h2 class="text-2xl text-center text-brown-900 mb-8 tracking-wide">Meet the Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="team-member-box">
+                    <img src="te.png" alt="Beldiman Teodor">
+                    <h3>Beldiman Teodor</h3>
+                    <h4>Co-Founder</h4>
+                    <p>Teodor este inima creativă a echipei noastre, aducând o pasiune molipsitoare și o viziune inovatoare în fiecare aspect al activității noastre. Cu o experiență vastă în domeniul culinar și un talent desăvârșit pentru a crea combinații de gusturi surprinzătoare, el este cel care transformă ingredientele simple în adevărate opere de artă culinară. Devotamentul său pentru calitate și perfecțiune se reflectă în fiecare preparat pe care îl creăm, iar entuziasmul său ne inspiră pe toți să depășim constant așteptările clienților noștri.</p>
+                </div>
+                <div class="team-member-box">
+                    <img src="bi.png" alt="Costin Bianca">
+                    <h3>Costin Bianca</h3>
+                    <h4>Co-Founder</h4>
+                    <p>Bianca este stâlpul de organizare și eficiență al echipei noastre, asigurându-se că fiecare detaliu este pus la punct cu meticulozitate și profesionalism. Cu o abilitate remarcabilă de a gestiona proiecte complexe și de a coordona eforturile echipei, ea este cea care transformă ideile noastre în realitate. Energia ei pozitivă și determinarea de a atinge excelența ne motivează să ne autodepășim constant, iar dedicarea ei pentru satisfacția clienților este exemplară.</p>
+                </div>
+                <div class="team-member-box">
+                    <img src="and.png" alt="Raileanu Andrei">
+                    <h3>Raileanu Andrei</h3>
+                    <h4>Co-Founder</h4>
+                    <p>Andrei este expertul nostru în marketing și strategie, cel care ne ajută să ne conectăm cu clienții noștri și să le împărtășim povestea noastră. Cu o creativitate debordantă și o înțelegere profundă a tendințelor din industrie, el este cel care ne ghidează în construirea unui brand puternic și autentic. Pasiunea lui pentru comunicare și abilitatea de a crea legături durabile cu oamenii ne ajută să construim o comunitate loială în jurul valorilor noastre.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-media-box">
+            <h3>Urmărește-ne pe Social Media</h3>
+            <div class="social-media-icons">
+                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-6 text-gray-600 mt-12 bg-f8f0e3 border-t border-gray-300">
+        © 2024 Beans. Toate drepturile rezervate.
+    </footer>
+
+    <script>
+        const homeButton = document.querySelector('a[href="index.html"]');
+        const despreButton = document.querySelector('a[href="despre.html"]');
+
+        if (despreButton) {
+            despreButton.addEventListener('click', () => {
+                window.location.href = 'despre.html';
+            });
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

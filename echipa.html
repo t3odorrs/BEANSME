@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echipa Beans</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #733D24; /* Updated color */
+            margin-bottom: 30px;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .member-box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            border: 1px solid #B77152; /* Added border */
+        }
+
+        .member-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .member-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .member-box h2 {
+            color: #B77152; /* Updated color */
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .member-box p {
+            color: #555; /* Slightly darker for better readability */
+            font-size: 0.9em;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+
+        .home-button {
+            display: block;
+            width: 100px;
+            margin: 30px auto;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #471E0D; /* Updated color */
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .home-button:hover {
+            background-color: #733D24; /* Slightly lighter on hover */
+            transform: translateY(-2px);
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Echipa Noastră</h1>
+
+    <div class="team-container">
+        <div class="member-box">
+            <img src="lena.png" alt="Elena 'Lena' Popescu">
+            <h2>Elena "Lena" Popescu</h2>
+            <p><b>Rol:</b> Barista Senior, Trainer</p>
+            <p><b>Vârstă:</b> 28</p>
+            <p>Elena "Lena" Popescu, 28. Barista Senior pasionată și trainer. Cunoscută pentru atenția la detalii și pasiunea pentru arta cafelei.</p>
+        </div>
+
+        <div class="member-box">
+            <img src="andi.png" alt="Andrei 'Andy' Ionescu">
+            <h2>Andrei "Andy" Ionescu</h2>
+            <p><b>Rol:</b> Barista</p>
+            <p><b>Vârstă:</b> 24</p>
+            <p>Andrei "Andy" Ionescu, 24. Expert eficient. Apreciază știința din spatele preparării cafelei și este meticulos în tot ceea ce face.</p>
+        </div>
+
+        <div class="member-box">
+            <img src="mia.jpg" alt="Maria 'Mia' Georgescu">
+            <h2>Maria "Mia" Georgescu</h2>
+            <p><b>Rol:</b> Barista Junior</p>
+            <p><b>Vârstă:</b> 19</p>
+            <p>Maria "Mia" Georgescu, 19. Localnică prietenoasă. Aduce energie și un zâmbet cald fiecărui client, creând o atmosferă primitoare.</p>
+        </div>
+    </div>
+
+    <a href="index.html" class="home-button">Acasă</a>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locațiile Noastre</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .home-button {
+            background-color: #733D24;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .home-button:hover {
+            background-color: #471E0D;
+        }
+
+        .location-box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            border: 1px solid #ddd;
+        }
+
+        .location-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .location-box h2 {
+            color: #733D24;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .location-box p {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .location-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .location-box .details {
+            color: #B77152;
+            font-style: italic;
+        }
+
+        .location-box .idea {
+            color: #471E0D;
+            font-weight: bold;
+        }
+
+        .location-box .contact {
+            color: #B77152;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="home-button" onclick="window.location.href='index.html'">Acasă</button>
+    <h1>Locațiile Noastre</h1>
+
+    <div class="location-box">
+        <h2>The Factory</h2>
+        <img src="C1.png" alt="The Factory">
+        <p class="details"><strong>Adresă:</strong> Strada Palas Nr. 7 A</p>
+        <p class="contact"><strong>Contact:</strong> factory@beanscafea.ro</p>
+        <p class="idea"><strong>Ideea din spatele acestui loc:</strong> "The Factory" este inima producției noastre, locul unde ingredientele brute sunt transformate cu grijă în produsele noastre de înaltă calitate. Aici îmbinăm metode tradiționale cu tehnologii moderne pentru a asigura consistența și excelența.</p>
+    </div>
+
+    <div class="location-box">
+        <h2>The Lab</h2>
+        <img src="pup1.png" alt="The Lab">
+        <p class="details"><strong>Adresă:</strong> Strada Stihii (zona Tg. Cucu Bulveard)</p>
+        <p class="contact"><strong>Contact:</strong> lab@beanscafea.ro</p>
+        <p class="idea"><strong>Ideea din spatele acestui loc:</strong> "The Lab" este centrul nostru de inovație și dezvoltare. Aici, echipa noastră de experți explorează noi rețete, testează ingrediente și asigură cele mai înalte standarde de calitate și siguranță pentru toate produsele noastre.</p>
+    </div>
+
+</body>
+</html>
